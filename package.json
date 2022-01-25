@@ -10,7 +10,8 @@
     "build": "webpack --mode production",
     "lint": "eslint --ext .ts,.tsx ./src/**/*",
     "test": "jest",
-    "test:coverage": "jest --collectCoverage"
+    "test:coverage": "jest --collectCoverage",
+    "test:coverage:cicd": "jest --collectCoverage --coverageReporters=text-summary"
   },
   "devDependencies": {
     "@types/jest": "^27.0.3",
