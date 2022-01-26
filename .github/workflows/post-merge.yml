@@ -29,7 +29,7 @@ jobs:
         with:
           auth: ${{ secrets.GIST_SECRET }}
           gistID: e96025e8ed327aa17f6c379c8ebc342a
-          filename: crypto-tokens-api__${{ env.BRANCH }}.json
+          filename: crypto-tokens-api__coverage.json
           label: Test Coverage
           message: ${{ env.COVERAGE }}
           color: green
